@@ -1,4 +1,18 @@
 /*
+---
+description: Notification system using Mootools (1.2+)
+
+license: MIT-style
+
+authors:
+- PaquitoSoft
+
+requires:
+
+
+provides:
+
+
 Script: Notimoo.js
 	Notimoo - Notification system using Mootools (1.2)
 
