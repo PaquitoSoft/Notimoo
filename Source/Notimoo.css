@@ -6,13 +6,9 @@ license: MIT-style
 authors:
  - PaquitoSoft
 requires:
- - Element.Style
- - Element.Event
- - Element.Dimension
- - Fx.Tween
- - Fx.Morph
- - Array
+core:1.2: [Element.Style, Element.Event, Element.Dimension, Fx.Tween, Fx.Morph, Array]
 provides: [Notimoo]
+version: 1.2
 ...
  
     Document   : notimoo

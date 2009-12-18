@@ -1,18 +1,14 @@
 /*
 ---
-script: notimoo-1.2.js
+script: notimoo-1.2.css
 description: Notification system using Mootools (1.2+)
 license: MIT-style
 authors:
  - PaquitoSoft
 requires:
- - Element.Style
- - Element.Event
- - Element.Dimension
- - Fx.Tween
- - Fx.Morph
- - Array
+core:1.2: [Element.Style, Element.Event, Element.Dimension, Fx.Tween, Fx.Morph, Array]
 provides: [Notimoo]
+version: 1.2
 ...
 
 Script: Notimoo.js
