@@ -27,7 +27,7 @@ to use it just with a couple of lines:
 		title: 'Testing notification',
 	    message: 'This notification will not disapper on its own. You must click on it to close.',
 	    sticky: true,
-	    customClass: info
+	    customClass: 'info'
 	});
 
 There is a lot of settings you can customize when creating the manager and some of them can be 
