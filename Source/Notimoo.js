@@ -190,7 +190,7 @@ var Notimoo = new Class({
      *  @param booleam sticky (optional) -> Whether the notification won't be removed until user interaction (defaults to false)
      *  @param int visibleTime (optional) -> Time for the notification to be displayed (in milliseconds). If this isn't provided, the global one will be used.
      *  @param int width (optional) -> Width fot the notification (in pixels). If this isn't provided, the global one will be used.
-     *	@param String customClasses (optional) -> Custom classes you want to apply to this notification. (list of classes separated by a blank space)
+     *	@param String customClass (optional) -> Custom class you want to apply to this notification. (It can be a list of classes separated by a blank space)
      */
     show: function(options) {        
         
@@ -226,7 +226,7 @@ var Notimoo = new Class({
        el.getElement('div.message').set('html', options.message);
 
 	   // Add custom classes
-	   if (options.customClasses) el.addClass(customClasses);
+	   if (options.customClass) el.addClass(options.customClass);
 
        // Once the notification is populated, we check to see if there is any link inside so we can
        // configure it in order not to close the notification when it's clicked
