@@ -220,9 +220,8 @@ var Notimoo = new Class({
        if (options.width) el.setStyle('width', options.width);
        
        // Set notification content
-       if (options.title) {
-       	el.getElement('span.title').set('html', options.title);
-       }
+       // Since title is optional and we're reusing notifications, we need to check 
+       el.getElement('span.title').set('html', (options.title) ? options.title : '');
        el.getElement('div.message').set('html', options.message);
 
 	   // Add custom classes
