@@ -1,4 +1,3 @@
-
 Notimoo
 =======
 
@@ -48,5 +47,5 @@ overriden every time you call the show() method.
 		visibleTime: 2500
 	});
 	
-Please, check the documentation web page for more details.
+Please, check the [documentation](http://code.google.com/p/notimoo/wiki/Documentation) web page for more details.
 
